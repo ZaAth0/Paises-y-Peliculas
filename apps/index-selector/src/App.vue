@@ -8,7 +8,7 @@
       <h1>Selecciona una Aplicación</h1>
       <div class="button-group">
         <a href="http://localhost:5175" target="_blank" class="btn blue">🎬 Películas</a>
-        <a href="http://localhost:5174" target="_blank" class="btn green">🌍 Países</a>
+        <a href="https://visualizadordepaises.netlify.app" target="_blank" class="btn green">🌍 Países</a>
       </div>
     </div>
   </div>
