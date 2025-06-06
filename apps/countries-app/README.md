@@ -47,7 +47,7 @@ npm run dev
 yarn dev
 ```
 
-5. Abre tu navegador y visita `http://localhost:5173`
+5. Abre tu navegador y visita `https://visualizadordepeliculas.netlify.app`
 
 ## Construcción para Producción
 
