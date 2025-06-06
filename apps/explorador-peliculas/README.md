@@ -1,5 +1,27 @@
-# Vue 3 + Vite
+# Explorador de Películas con Vue.js, AG Grid y Tailwind CSS
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Aplicación web para explorar películas utilizando la API de TMDb, con funcionalidades avanzadas de filtrado, búsqueda y visualización.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Características Implementadas
+- ✅ Visualización de películas en grid interactivo
+- ✅ Filtrado por géneros
+- ✅ Búsqueda en tiempo real
+- ✅ Modo oscuro/claro
+- ✅ Exportación a CSV
+- ✅ Vista detallada de películas
+- ✅ Sistema de favoritos
+- ✅ Diseño completamente responsive
+- ✅ Manejo de estados de carga y errores
+
+## Tecnologías Utilizadas
+- Vue.js 3 (Composition API)
+- AG Grid (versión Community)
+- Tailwind CSS
+- Axios (para llamadas API)
+- Pinia (gestión de estado)
+
+## Instalación
+1. Clonar el repositorio
+2. Ejecutar `npm install`
+3. Ejecutar `npm install ag-grid-community ag-grid-vue3`
+4. Ejecutar `npm install -D tailwindcss postcss autoprefixer`

@@ -33,6 +33,9 @@ npm install
 # o si usas yarn:
 yarn install
 ```
+npm install ag-grid-community ag-grid-vue3
+
+npm install -D tailwindcss postcss autoprefixer
 
 3. Crea un archivo `.env` en la raíz del proyecto con las siguientes claves API:
 ```env
