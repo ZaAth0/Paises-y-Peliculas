@@ -47,7 +47,7 @@ npm run dev
 yarn dev
 ```
 
-5. Abre tu navegador y visita `https://visualizadordepeliculas.netlify.app`
+5. Abre tu navegador y visita `https://visualizadordepaises.netlify.app`
 
 ## Construcción para Producción
 
