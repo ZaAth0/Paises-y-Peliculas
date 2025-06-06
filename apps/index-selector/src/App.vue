@@ -2,7 +2,7 @@
   <div class="background-container">
     <div class="background" id="background"></div>
   </div>
-  
+
   <div class="container">
     <div class="card">
       <h1>Selecciona una Aplicación</h1>
@@ -27,24 +27,29 @@ export default {
     let currentIndex = 0;
     const backgroundContainer = document.querySelector('.background-container');
 
+    function getRandomDirection() {
+      const directions = ["translateX(100%)", "translateX(-100%)", "translateY(100%)", "translateY(-100%)"];
+      return directions[Math.floor(Math.random() * directions.length)];
+    }
+
     function changeBackground() {
       const newBackground = document.createElement("div");
       newBackground.classList.add("background");
       newBackground.style.backgroundImage = `url(${images[currentIndex]})`;
-      newBackground.style.transform = "translateX(100%)";
+      newBackground.style.transform = getRandomDirection();
       newBackground.style.opacity = "0";
 
       backgroundContainer.appendChild(newBackground);
 
       setTimeout(() => {
-        newBackground.style.transform = "translateX(0)";
+        newBackground.style.transform = "translateX(0) translateY(0)";
         newBackground.style.opacity = "1";
       }, 100);
 
       setTimeout(() => {
         const oldBackgrounds = document.querySelectorAll(".background");
         if (oldBackgrounds.length > 1) {
-          oldBackgrounds[0].style.transform = "translateX(-100%)";
+          oldBackgrounds[0].style.transform = getRandomDirection();
           oldBackgrounds[0].style.opacity = "0";
 
           setTimeout(() => {
